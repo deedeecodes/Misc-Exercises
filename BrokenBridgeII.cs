@@ -8,13 +8,14 @@ namespace IttyBittyProblems
     {
         public int BridgesII(string bridges)
         {
-            int column = bridges.Substring(0, bridges.IndexOf('/') - 1).Length + 1;
-            int line = 0;
 
             string[] bridgesSplit = bridges.Split('/');
             
             List<int> brokenLines = new List<int>();
             List<int> brokenColumns = new List<int>();
+
+            int column = bridgesSplit[0].Length;
+            int line = 0;
 
             foreach (string bridge in bridgesSplit)
             {
