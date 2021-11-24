@@ -4,6 +4,11 @@ namespace IttyBittyProblems
 {
     public class NumberIsPalindrome
     {
+        /*Create a function that returns true if a number is a palindrome.
+          A palindrome is a number that remains the same when reversed.
+          Bonus: Try solving this without turning the number into a string.
+          From: https://edabit.com By: Pickle*/
+
         public int Palindrome(int number)
         {
             int copy = number;

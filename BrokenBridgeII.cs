@@ -6,9 +6,15 @@ namespace IttyBittyProblems
 {
     public class BrokenBridgeII
     {
+        /*Create a function to return the count of all bridges in a two-dimensional grid.
+          Bridge B should be counted if:
+          It connects from one end of the grid to the one opposite to it.
+          It is unobstructed.
+          Vertical bridges count.
+          From: https://edabit.com By: Sinomede*/
+
         public int BridgesII(string bridges)
         {
-
             string[] bridgesSplit = bridges.Split('/');
             
             List<int> brokenLines = new List<int>();
