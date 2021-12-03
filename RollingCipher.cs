@@ -16,7 +16,7 @@ namespace IttyBittyProblems
            Each character is rotated the same number of times.
            From: https://edabit.com By: supafly*/
 
-        public string Cipher(string str, int n)
+        public  string Cipher(string str, int n)
         {
             char[] strChars = str.ToCharArray();
 

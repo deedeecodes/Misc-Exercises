@@ -12,7 +12,7 @@ namespace IttyBittyProblems
           0 is not positive.
           From: https://edabit.com By: Николай*/
 
-        public double[] CountPosSumNeg(double[] arr)
+        public  double[] CountPosSumNeg(double[] arr)
         {
             if (arr == null || arr.Length == 0)
                 return new double[] { };

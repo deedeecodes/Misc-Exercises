@@ -19,7 +19,7 @@ namespace IttyBittyProblems
            The offset can be greater than the input string's length.
            From: https://edabit.com By: Sinomede*/
 
-        public string WrapAround(string str, int n)
+        public  string WrapAround(string str, int n)
         {
             int offset = n % str.Length;
 

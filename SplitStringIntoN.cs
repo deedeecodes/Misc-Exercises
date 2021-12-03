@@ -17,7 +17,7 @@ namespace IttyBittyProblems
            If it's not possible to split the string as described, return { "Error" }.
            From: https://edabit.com By: Sinomede*/
 
-        public string[] SplitNCases(string str, int n)
+        public  string[] SplitNCases(string str, int n)
         {
             if (str.Length % n != 0)
                 return new string[] { "Error" };

@@ -13,7 +13,7 @@ namespace IttyBittyProblems
            Factors that are equal to the number or 1 don't count.
            From: https://edabit.com By: persolut*/
 
-        public List<int> Divisors(int a)
+        public  List<int> Divisors(int a)
         {
             List<int> divisors = new List<int>();
 
@@ -27,7 +27,7 @@ namespace IttyBittyProblems
 
             return divisors;
         }
-        public int SumOfFF(int a)
+        public  int SumOfFF(int a)
         {
             NumberIsPrime number = new NumberIsPrime();
             int sum = 0;

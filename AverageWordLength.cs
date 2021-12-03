@@ -10,7 +10,7 @@ namespace IttyBittyProblems
           Ignore punctuation when counting the length of a word.
           From: https://edabit.com By: supafly*/
 
-        public double AverageLength(string str)
+        public  double AverageLength(string str)
         {
             str = Regex.Replace(str, "[.?!,]", "");
             string[] words = str.Split(" ");

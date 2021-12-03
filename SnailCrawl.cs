@@ -14,7 +14,7 @@ namespace IttyBittyProblems
            From: https://edabit.com By: persolut
          */
 
-        public int Crawl(int depth)
+        public  int Crawl(int depth)
         {
             int minutes = 0;
 

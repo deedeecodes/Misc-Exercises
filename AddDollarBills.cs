@@ -15,7 +15,7 @@ namespace IttyBittyProblems
           From: https://edabit.com By: persolut
          */
 
-        public int AddBills(string money)
+        public  int AddBills(string money)
         {
             string[] bills = money.Replace(" ", "").Split(',');
             bills = bills.Where(x => x.Contains('$')).ToArray();

@@ -9,7 +9,7 @@ namespace IttyBittyProblems
           three times in a row at any place in num1 AND that same digit repeats two times in a row in num2.
           From: https://edabit.com By: Pickle*/
 
-        public bool Trouble(long num1, long num2)
+        public  bool Trouble(long num1, long num2)
         {
             string a = num1.ToString();
             string b = num2.ToString();

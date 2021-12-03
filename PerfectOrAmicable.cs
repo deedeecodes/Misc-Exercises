@@ -11,7 +11,7 @@ namespace IttyBittyProblems
           Create a function that takes a number and returns "Perfect" if the number is perfect, "Amicable" if the number is part of an amicable pair, or "Neither".
           From: https://edabit.com By: persolut*/
 
-        public int DivisorSum(int num)
+        public  int DivisorSum(int num)
         {
             int sum = 0;
 
@@ -24,7 +24,7 @@ namespace IttyBittyProblems
             return sum;
         }
 
-        public string NumType(int num)
+        public  string NumType(int num)
         {
             int num2 = DivisorSum(num);
 

@@ -12,7 +12,7 @@ namespace IttyBittyProblems
           System.Globalization.CultureInfo should be used.
           From: https://edabit.com By: rob313663*/
 
-        public string WeekdayRobWasBornInDutch(int year, int month, int day)
+        public  string WeekdayRobWasBornInDutch(int year, int month, int day)
         {
             CultureInfo culture = new CultureInfo("nl-NL");
             DateTime birthday = new DateTime(year, month, day);

@@ -18,7 +18,7 @@ namespace IttyBittyProblems
           The maximum time to complete the interview includes a buffer time of 20 minutes. 
           From: https://edabit.com By: persolut*/
 
-        public string Interview(int[] questionTime, int completionTime)
+        public  string Interview(int[] questionTime, int completionTime)
         {
             if (completionTime > 120)
                 return "disqualified";

@@ -14,7 +14,7 @@ namespace IttyBittyProblems
           From: https://edabit.com By: mqqqqqx
          */
 
-        public int[] Encrypt(string str)
+        public  int[] Encrypt(string str)
         {
             int[] arr = new int[str.Length];
             arr[0] = str[0];
@@ -27,7 +27,7 @@ namespace IttyBittyProblems
             return arr;
         }
 
-        public string Decrypt(int[] arr)
+        public  string Decrypt(int[] arr)
         {
             string str = "";
             str += (char)arr[0];

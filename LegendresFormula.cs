@@ -18,7 +18,7 @@ namespace IttyBittyProblems
            From: https://edabit.com By: persolut
          */
 
-        public int Legendre(int p, int n)
+        public  int Legendre(int p, int n)
         {
             int sum = 0;
 

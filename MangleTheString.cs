@@ -13,7 +13,7 @@ namespace IttyBittyProblems
             From: https://edabit.com By: Pickle
          */
 
-        public string Mangle(string str)
+        public  string Mangle(string str)
         {
             char[] vowels = new char[5] { 'a', 'e', 'i', 'o', 'u' };
             string result = "";

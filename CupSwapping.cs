@@ -15,7 +15,7 @@ namespace IttyBittyProblems
            From: https://edabit.com By: persolut
          */
 
-        public string CupSwaps(string[] swaps)
+        public  string CupSwaps(string[] swaps)
         {
             string currentPos = "B";
 

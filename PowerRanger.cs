@@ -9,7 +9,7 @@ namespace IttyBittyProblems
         /*Create a function that takes in n, a, b and returns the number of positive values raised to the nth power that lie in the range [a, b], inclusive.
           From: https://edabit.com By: supafly*/
 
-        public int? PowerRange(int n, int a, int b)
+        public  int? PowerRange(int n, int a, int b)
         {
             if(a < b)
             {

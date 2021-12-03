@@ -13,7 +13,7 @@ namespace IttyBittyProblems
            From: https://edabit.com By: supafly
          */
 
-        public string TextToNumbers(string str)
+        public  string TextToNumbers(string str)
         {
             Dictionary<string, string> converter = new Dictionary<string, string>() 
             {

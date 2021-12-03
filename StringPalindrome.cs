@@ -6,9 +6,10 @@ using System.Text.RegularExpressions;
 namespace IttyBittyProblems
 {
     public class StringPalindrome
-    {
+    { 
+        /*Check if a string is a palindrome*/
 
-        public bool IsPalindrome(string str)
+        public  bool IsPalindrome(string str)
         {
             str = str.ToLower();
             str = Regex.Replace(str, "[?!:;., \n\t]", "");

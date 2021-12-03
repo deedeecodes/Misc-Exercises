@@ -10,7 +10,7 @@ namespace IttyBittyProblems
           Given a censored string and a string of the censored vowels, return the original uncensored string. 
           From: https://edabit.com By: persolut*/
 
-        public string Uncensor(string txt, string vowels)
+        public  string Uncensor(string txt, string vowels)
         {
             char[] txtChar = txt.ToCharArray();
             int count = 0;

@@ -17,7 +17,7 @@ namespace IttyBittyProblems
           steps to reach 1 than b when passed through the Collatz sequence, or "b" if integer b took fewer steps to reach 1 than a.
           From: https://edabit.com By: persolut*/
 
-        public int DoCollatz(long a)
+        public  int DoCollatz(long a)
         {
             int steps = 0;
 
@@ -38,7 +38,7 @@ namespace IttyBittyProblems
             return steps;
         }
 
-        public string Collatz(long a, long b)
+        public  string Collatz(long a, long b)
         {
             int stepsA = DoCollatz(a);
             int stepsB = DoCollatz(b);

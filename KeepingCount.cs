@@ -10,7 +10,7 @@ namespace IttyBittyProblems
           The final instance of the number will be an integer, not a string.
           From: https://edabit.com By: persolut*/
 
-        public long DigitCount(long num)
+        public  long DigitCount(long num)
         {
             int[] digits = num.ToString().ToCharArray().Select(x => Convert.ToInt32(x) - 48).ToArray();
             long newNum = 0;

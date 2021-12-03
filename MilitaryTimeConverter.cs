@@ -13,7 +13,7 @@ namespace IttyBittyProblems
            A 24-hour input time contains no suffix.
            From: https://edabit.com By: supafly*/
 
-        public string ConvertTime(string time)
+        public  string ConvertTime(string time)
         {
             int posOfColumn = time.IndexOf(':');
             string minutes = time.Substring(posOfColumn, 3);

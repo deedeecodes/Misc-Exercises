@@ -9,7 +9,7 @@ namespace IttyBittyProblems
           We reverse "123" to get "321" and then add "123" to the end, resulting in "321123".
           From: https://edabit.com By: rob313663*/
 
-        public string? ReverseAndNot(int i)
+        public  string? ReverseAndNot(int i)
         {
             NumberIsPalindrome utility = new NumberIsPalindrome();
 

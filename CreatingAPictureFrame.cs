@@ -13,7 +13,7 @@ namespace IttyBittyProblems
            Return ["invalid"] if width or height is less than 3 (can't put anything inside).
            From: https://edabit.com By: persolut*/
 
-        public string[] GetFrame(int width, int height, char frameType)
+        public  string[] GetFrame(int width, int height, char frameType)
         {
             string[] frame = new string[height];
             if (width < 3 || height < 3)

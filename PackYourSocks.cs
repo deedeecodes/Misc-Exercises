@@ -10,7 +10,7 @@ namespace IttyBittyProblems
           The socks are represented as an unordered sequence.
           From: https://edabit.com By: supafly*/
 
-        public int? SockPairs(string socks)
+        public  int? SockPairs(string socks)
         {
             Dictionary<char, int> sockTypes = new Dictionary<char, int>();
             int pairs = 0;

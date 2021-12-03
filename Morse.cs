@@ -10,7 +10,7 @@ namespace IttyBittyProblems
            Encode and Decode International Morse Code
            For dictionary info I used: https://morsecode.world/international/translator.html
          */
-        private Dictionary<char, string> morse = new Dictionary<char, string>()
+        private static Dictionary<char, string> morse = new Dictionary<char, string>()
         {
             { 'a', ".-"},
             { 'b', "-..." },
@@ -57,7 +57,7 @@ namespace IttyBittyProblems
             { '9', "----."}
         };
 
-        public string Encode(string str)
+        public  string Encode(string str)
         {
             string result = "";
 
@@ -69,7 +69,7 @@ namespace IttyBittyProblems
             return result.TrimEnd(' ');
         }
 
-        public string Decode(string str)
+        public  string Decode(string str)
         {
             string result = "";
 

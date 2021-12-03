@@ -10,7 +10,7 @@ namespace IttyBittyProblems
           Floats and empty arrays will not be used in any of the test cases.
           From: https://edabit.com By: Andrew Rosenwinkel*/
 
-        public int SumOfSmallest(int[] arr)
+        public  int SumOfSmallest(int[] arr)
         {
             var sum = arr.Where(x => x > -1)
                          .OrderBy(x => x).Take(2).Sum();

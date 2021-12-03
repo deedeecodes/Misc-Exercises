@@ -23,7 +23,7 @@ namespace IttyBittyProblems
          The last digit may not be zero, but any other might.
          */
 
-        public bool IsValid(string IP)
+        public  bool IsValid(string IP)
         {
             if (IP.Split('.').Length != 4)
                 return false;

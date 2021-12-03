@@ -15,7 +15,7 @@ namespace IttyBittyProblems
           Create a function that determines whether the input sentence is a smooth sentence, returning a boolean value true if it is, false if it is not.
           From: https://edabit.com By: supafly*/
 
-        public bool IsSmooth(string sentence)
+        public  bool IsSmooth(string sentence)
         {
             string[] words = sentence.Split(' ');
 

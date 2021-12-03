@@ -19,7 +19,7 @@ namespace IttyBittyProblems
           From: https://edabit.com/ By: persolut
          */
 
-        public int SmallestMissing(int[] arr)
+        public  int SmallestMissing(int[] arr)
         {
             int[] sorted = arr.OrderBy(x => x).ToArray();
             int minPos = sorted[sorted.Length - 1] + 1;

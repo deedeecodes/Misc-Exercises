@@ -14,7 +14,7 @@ namespace IttyBittyProblems
           From: https://edabit.com By: persolut
          */
 
-        public string MaxOccurence(string str)
+        public  string MaxOccurence(string str)
         {
             Dictionary<char, int> occurences = new Dictionary<char, int>();
 

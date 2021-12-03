@@ -12,12 +12,12 @@ namespace IttyBittyProblems
          */
 
 
-        public string ReturnSubstring(string str1, string str2)
+        public  string ReturnSubstring(string str1, string str2)
         {
             return str1.Substring(str1.Length - str2.Length, str2.Length);
         }
 
-        public bool Overlap(string str1, string str2)
+        public  bool Overlap(string str1, string str2)
         {
             str1 = str1.ToLower();
             str2 = str2.ToLower();

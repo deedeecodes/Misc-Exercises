@@ -13,7 +13,7 @@ namespace IttyBittyProblems
           Vertical bridges count.
           From: https://edabit.com By: Sinomede*/
 
-        public int BridgesII(string bridges)
+        public  int BridgesII(string bridges)
         {
             string[] bridgesSplit = bridges.Split('/');
             

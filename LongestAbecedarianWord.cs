@@ -17,7 +17,7 @@ namespace IttyBittyProblems
           From: https://edabit.com By: persolut
          */
 
-        public bool IsABC(string word)
+        public  bool IsABC(string word)
         {
             for (int i = 0; i < word.Length - 1; i++)
             {
@@ -28,7 +28,7 @@ namespace IttyBittyProblems
             return true;
         }
 
-        public string LongestABC(string[] arr)
+        public  string LongestABC(string[] arr)
         {
             List<string> abcWords = new List<string>();
 

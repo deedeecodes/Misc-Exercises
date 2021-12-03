@@ -9,7 +9,7 @@ namespace IttyBittyProblems
           Write a function to determine if the given integer is uban.
           From: https://edabit.com By: persolut*/
 
-        public bool IsUban(int num)
+        public  bool IsUban(int num)
         {
             if(num < 100 || num > 999999)
             {

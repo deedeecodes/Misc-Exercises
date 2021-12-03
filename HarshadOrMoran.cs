@@ -14,12 +14,12 @@ namespace IttyBittyProblems
           From: https://edabit.com By: persolut
          */
 
-        public int DigitSum(int num)
+        public  int DigitSum(int num)
         {
             return num.ToString().Sum(x => Convert.ToInt32(x) - 48);
         }
 
-        public string HOrM(int num)
+        public  string HOrM(int num)
         {
             NumberIsPrime check = new NumberIsPrime();
 

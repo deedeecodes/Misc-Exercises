@@ -15,7 +15,7 @@ namespace IttyBittyProblems
          From: https://edabit.com By: persolut
          */
 
-        public bool ValidRondo(string s)
+        public  bool ValidRondo(string s)
         {
             char currentContrast = 'B';
 

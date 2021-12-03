@@ -9,7 +9,7 @@ namespace IttyBittyProblems
           Bonus: Try solving this without turning the number into a string.
           From: https://edabit.com By: Pickle*/
 
-        public int Palindrome(int number)
+        public  int Palindrome(int number)
         {
             int copy = number;
             int palindrome = 0;
@@ -22,7 +22,7 @@ namespace IttyBittyProblems
 
             return palindrome;
         }
-        public bool IsPalindrome(int number)
+        public  bool IsPalindrome(int number)
         {
             if (Palindrome(number) == number)
                 return true;

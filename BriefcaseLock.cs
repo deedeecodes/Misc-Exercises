@@ -13,7 +13,7 @@ namespace IttyBittyProblems
           It takes 1 + 4 + 1 + 3 = 9 minimum turns to change the lock from 4089 to 5672.
           From: https://edabit.com By: supafly*/
 
-        public int Roll(char current, char target, string direction)
+        public  int Roll(char current, char target, string direction)
         {
             int curr = Convert.ToInt32(current);
             int tar = Convert.ToInt32(target);
@@ -37,7 +37,7 @@ namespace IttyBittyProblems
             }
         }
 
-        public int MinTurns(string current, string target)
+        public  int MinTurns(string current, string target)
         {
             int sum = 0;
             for(int i = 0; i < current.Length; i++)
